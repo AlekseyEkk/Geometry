@@ -58,7 +58,7 @@ namespace Geometry
 
     }
 
-    public sealed class Circle : Shape
+    public class Circle : Shape
     {
         public double Radius { get; private set; }
 
@@ -82,7 +82,7 @@ namespace Geometry
         }
     }
 
-    public sealed class Triangle : Shape
+    public class Triangle : Shape
     {
         public double FirstSide { get; private set; }
 
